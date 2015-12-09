@@ -59,4 +59,5 @@ button {
   width: 50%;
   height: 100vh;
   margin-bottom: -6px;
+  opacity: .2;
 }
