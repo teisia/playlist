@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "avenirFont";
+  src: url("fonts/AvenirNextLTPro-Regular.otf")
+}
+
+body {
+  font-family: "avenirFont";
+}
+
+header {
+  background-color: #9B9B8C;
+  height: 100px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+.headcopy {
+  padding-left: 40px;
+  padding-top: 55px;
+}
+
+.albums {
+  height: 100px;
+  overflow: scroll;  
+}
+
+.main {
+  height: 100vh;
+}
+
+textarea {
+  height: 30%;
+  width: 90%;
+  margin: 20px 20px 20px 50px;
+  border: 2px solid black;
+  background-color: #EEEEEE;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  background-color: #353526;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+}
+
+#clearTracks {
+  margin-left: 50px;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #686859;
+  color: white;
+  clear: both;
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.footcopy {
+  padding-left: 70px;
+}
