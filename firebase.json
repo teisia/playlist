@@ -1,0 +1,9 @@
+{
+  "firebase": "practice-assessment-playlist-teisia",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
