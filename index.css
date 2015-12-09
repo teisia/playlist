@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "avenirFont";
+  src: url("fonts/AvenirNextLTPro-Regular.otf")
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: "avenirFont";
+}
+
+header {
+  background-color: #9B9B8C;
+  height: 50px;
+  width: 100%;
+}
+
+footer {
+  background-color: #686859;
+  color: white;
+  clear: both;
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.footcopy {
+  padding-left: 90px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.right {
+
+}
+
+.tbin {
+  color: #4C0066;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  background-color: #353526;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  border: none;
+}
+
+#trainTrack {
+  width: 50%;
+  height: 100vh;
+  margin-bottom: -6px;
+}
