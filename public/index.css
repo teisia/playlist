@@ -14,20 +14,6 @@ header {
   width: 100%;
 }
 
-footer {
-  background-color: #686859;
-  color: white;
-  clear: both;
-  font-size: 20px;
-  height: 40px;
-  width: 100%;
-  padding-top: 15px;
-}
-
-.footcopy {
-  padding-left: 70px;
-}
-
 .left {
   float: left;
   width: 50%;
@@ -37,7 +23,9 @@ footer {
 }
 
 .right {
-
+  float: left;
+  width: 50%;
+  text-align: center;
 }
 
 .tbin {
@@ -61,8 +49,38 @@ a {
 }
 
 #trainTrack {
-  width: 50%;
+  width: 100%;
   height: 100vh;
-  margin-bottom: -6px;
   opacity: .2;
+  z-index: 1;
+  margin-top: -20px;
+  margin-bottom: -5px;
+}
+
+.albumArt {
+  z-index: 2;
+  height: 20px;
+  width: 10%;
+  float: left;
+}
+
+.albumArt img {
+  height: 215px;
+  width: 215px;
+  margin-left: 240px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #686859;
+  color: white;
+  clear: both;
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.footcopy {
+  padding-left: 70px;
 }
