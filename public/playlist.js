@@ -20,10 +20,21 @@ $(document).on("click", ".album", function() {
     if (albums[i]["id"] == this.id) {
     $(".trackList").append(x+'\n');
     container.push(x);
-    console.log(container);
 }
 }
+})
+});
+
+$(function() {
+  $("#submit").click(function() {
+    $.post(
+      "https://lit-fortress-6467.herokuapp.com/post",
+      {"container[]":[]},
+      function(data) {
+        console.log("yay!");
+        console.log(data);
+}
+)
 
 })
-
 });
