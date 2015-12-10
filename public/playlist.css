@@ -22,14 +22,14 @@ header {
 
 .albums {
   height: 120px;
-  width: 100vw;
+  width: auto;
   overflow: scroll;
   text-align: center;
 }
 
 .albums img {
   height: 75px;
-  width: 75px;
+  width: auto;
   padding: 10px;
 }
 
