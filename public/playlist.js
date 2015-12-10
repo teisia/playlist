@@ -8,7 +8,22 @@ getter.done(function(response) {
   var albums = response["results"];
   for (var i = 0; i < albums.length; i++) {
     var my_id = albums[i]["id"];
-    $(".albums").append('<img src="images/'+albums[i]["cover_art"]+'" id="'+my_id+'"/>');
-    var my_div = $("#"+my_id);
-};
+    $(".albums").append('<img class="album" src="images/'+albums[i]["cover_art"]+'" id="'+my_id+'"/>');
+}
+
+var container = [];
+
+$(document).on("click", ".album", function() {
+  var albums = response["results"];
+  for (var i = 0; i < albums.length; i++) {
+    var x = albums[i]["artist"]+': '+albums[i]["title"];
+    if (albums[i]["id"] == this.id) {
+    $(".trackList").append(x+'\n');
+    container.push(x);
+    console.log(container);
+}
+}
+
+})
+
 });
