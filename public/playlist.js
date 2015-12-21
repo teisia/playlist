@@ -25,6 +25,10 @@ $(document).on("click", ".album", function() {
 })
 });
 
+$(document).on("click", "#clearTracks", function() {
+  $(".trackList").empty();
+})
+
 $(function() {
   $("#submit").click(function() {
     $.post(

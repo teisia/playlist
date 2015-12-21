@@ -5,6 +5,7 @@
 
 body {
   font-family: "avenirFont";
+  margin: 0;
 }
 
 header {
@@ -31,11 +32,10 @@ header {
   height: 75px;
   width: auto;
   padding: 10px;
-
 }
 
 .main {
-  height: 100vh;
+  height: 70vh;
 }
 
 textarea {
@@ -68,6 +68,8 @@ footer {
   height: 40px;
   width: 100%;
   padding-top: 15px;
+  position: fixed;
+  bottom: 0;
 }
 
 .footcopy {
